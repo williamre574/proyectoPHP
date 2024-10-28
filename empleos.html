@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Empleos - Grupo Griffin</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        function aplicarEmpleo(nombreEmpleo) {
+            alert("Has aplicado para el puesto de " + nombreEmpleo + ". Nos pondremos en contacto contigo.");
+        }
+    </script>
+</head>
+<body>
+    <h1>Empleos Disponibles</h1>
+    <div class="card-container">
+        <div class="card">
+            <h3>Desarrollador Web</h3>
+            <p>Responsable del desarrollo y mantenimiento de sitios web.</p>
+            <button class="button" onclick="aplicarEmpleo('Desarrollador Web')">Aplicar</button>
+        </div>
+        <div class="card">
+            <h3>Administrador de Sistemas</h3>
+            <p>Encargado de la administración de la infraestructura de TI.</p>
+            <button class="button" onclick="aplicarEmpleo('Administrador de Sistemas')">Aplicar</button>
+        </div>
+        <div class="card">
+            <h3>Soporte Técnico</h3>
+            <p>Brinda soporte y asistencia técnica a usuarios.</p>
+            <button class="button" onclick="aplicarEmpleo('Soporte Técnico')">Aplicar</button>
+        </div>
+    </div>
+    <a href="index.html">Volver a inicio</a>
+</body>
+</html>
