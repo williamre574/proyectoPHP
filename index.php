@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Grupo Griffin</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <h1>Bienvenidos a Grupo Griffin</h1>
